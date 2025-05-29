@@ -14,7 +14,7 @@ Did you know that **over 70% of public printers don’t auto-delete files** afte
 
 - **Encrypted Upload:** AES-256 encryption ensures your documents are safe at rest and in transit.
 - **One-Time QR Code:** Generate a unique QR code for one-time access to your document.
-- **15-Second Auto-Delete:** Files are automatically deleted 15 seconds after access to prevent unauthorized retrieval.
+- **30-Second Auto-Delete:** Files are automatically deleted 30 seconds after access to prevent unauthorized retrieval.
 - **Trace-Free Architecture:** No file trace left after use, ensuring confidentiality.
 - **Secure Cloud Storage:** Leveraging Cloudinary for encrypted and reliable file storage.
 - **JWT Authentication:** Secure user authentication and authorization.
@@ -95,10 +95,13 @@ npm run dev
 
 ## 🖼️ Screenshots
 
-| Screenshot 1          | Screenshot 2          | Screenshot 3          |
-|-----------------------|-----------------------|-----------------------|
-| ![Screenshot1](path)  | ![Screenshot2](path)  | ![Screenshot3](path)  |
-| Upload Page           | QR Code Generation    | Document Access Page  |
+| Upload Image         | Image Uploaded        | QR Code Generation    |
+|----------------------|----------------------|-----------------------|
+| ![UploadImage](UploadImage.png) | ![ImageUploaded](ImageUploaded.png) | ![GenerateQR](generateQrPage.png) |
+
+| Time-Based QR Code   | Document Access Page  | Print Page            |
+|----------------------|----------------------|-----------------------|
+| ![TimeBasedQR](TimeBasedQrCode.png) | ![AccessDocument](AccesDocument.png) | ![PrintPage](PrintPage.png) |
 
 ---
 
@@ -111,14 +114,21 @@ npm run dev
 
 ---
 
+## ⚠️ Prototype Limitations
+
+- Currently, Prototype works well for image files (e.g., .jpg, .png).
+- Due to time constraints, PDF printing implementation is not yet available.
+- So please try the prototype with images.
+- A key future goal is to extend support to PDF documents for broader feasibility.
+
+---
+
 ## 👥 Contributors
 
 - **Team Name:** Learners  
 - **Members:**  
   - Ayush Kumar  
   - Shyam Kumar (Leader)
-
-- **Mentor:** None
 
 ---
 
