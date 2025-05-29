@@ -1,21 +1,22 @@
 # 🚀 Rakshak – Encrypted Document Sharing System
 
-### 🔐 Securely Share Your Documents with Confidence
+### 🔐 Empowering Data Privacy in the Age of Digital Threats
 
 ---
 
 ## 📋 Problem Statement
 
-Did you know that **70% of public printers don’t auto-delete files** after printing? This exposes sensitive documents to unauthorized access and potential data breaches. Rakshak addresses this critical cybersecurity gap by providing a secure, encrypted document sharing system that ensures your files are protected at every step.
+Did you know that **over 70% of public printers don’t auto-delete files** after printing? This exposes sensitive documents to unauthorized access and potential data breaches. Rakshak addresses this critical cybersecurity gap by providing a secure, encrypted document sharing system that ensures your files are protected at every step.
 
 ---
 
 ## ✨ Key Features
 
-- **Encrypted Upload:** All documents are encrypted before upload to ensure confidentiality.
+- **Encrypted Upload:** AES-256 encryption ensures your documents are safe at rest and in transit.
 - **One-Time QR Code:** Generate a unique QR code for one-time access to your document.
 - **15-Second Auto-Delete:** Files are automatically deleted 15 seconds after access to prevent unauthorized retrieval.
-- **Secure Cloud Storage:** Leveraging Cloudinary for safe and reliable file storage.
+- **Trace-Free Architecture:** No file trace left after use, ensuring confidentiality.
+- **Secure Cloud Storage:** Leveraging Cloudinary for encrypted and reliable file storage.
 - **JWT Authentication:** Secure user authentication and authorization.
 - **User-Friendly Interface:** Built with React.js and Tailwind CSS for a smooth user experience.
 
@@ -61,7 +62,7 @@ QR Code Generation & One-Time Access Flow Integrated
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kumarayush0104/final-Rakshak
 cd final\ Rakshak
 ```
 
@@ -87,7 +88,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-[Live Demo Link](https://your-live-demo-link.vercel.app)  
+[Live Demo Link](https://rakshak-official.netlify.app/)  
 *Video demo coming soon...*
 
 ---
@@ -110,14 +111,14 @@ npm run dev
 
 ---
 
-## 👥 Contributors & Mentor
+## 👥 Contributors
 
-- **Contributors:**  
-  - Yuvraj Goyal  
-  - [Add other contributors here]
+- **Team Name:** Learners  
+- **Members:**  
+  - Ayush Kumar  
+  - Shyam Kumar (Leader)
 
-- **Mentor:**  
-  - [Mentor Name]
+- **Mentor:** None
 
 ---
 
